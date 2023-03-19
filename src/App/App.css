@@ -1,0 +1,34 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.offset{
+  max-width: 1428px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head_main_text{
+  font-family: "Berlin Sans FB";
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+}
+
+.head_main_text_h2{
+  font-family: "Berlin Sans FB";
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.task_list_block{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+

@@ -1,0 +1,25 @@
+.filter_buttons_block{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 0px;
+}
+
+.filter_btn{
+    width: 152px;
+    height: 60px;
+    background: #CCEDFF;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-family: "Berlin Sans FB";
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0px 8px;
+}
+
+.filter_btn:hover{
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}

@@ -1,0 +1,89 @@
+.list_task_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 16px 12px;
+    width: 100%;
+    border-radius: 12px;
+    outline: none;
+    margin: 8px 0px;
+}
+
+.list_task_check_block{
+    display: flex;
+    align-items: center;
+}
+
+.list_task_check_block label:hover{
+    cursor: pointer;
+}
+
+.task_text{
+    font-family: "Berlin Sans FB";
+    font-size: 36px;
+    line-height: 24px;
+    margin-left: 8px;
+    transition: .3s;
+}
+
+.done_text{
+    font-family: "Berlin Sans FB";
+    font-size: 36px;
+    line-height: 24px;
+    margin-left: 8px;
+    text-decoration: line-through;
+    transition: .3s;
+}
+
+.checkbox{
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.checkbox:hover{
+    cursor: pointer;
+}
+
+.list_task_delete_fav_block{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    font-size: 36px;
+    margin: 0px 4px;
+    transition: .3s;
+}
+
+
+.fav_icon{
+    transition: .3s;
+    font-size: 36px;
+    margin: 0px 4px;
+}
+
+.color_fav{
+    font-size: 36px;
+    margin: 0px 4px;
+    color: gold;
+}
+
+.del_icon:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.fav_icon:hover{
+    cursor: pointer;
+    color: gold;
+}
+
+
+.line{
+    border-left: 2px solid black;
+    height: 40px;
+    margin: 0 auto;
+    width: 1px;
+}
