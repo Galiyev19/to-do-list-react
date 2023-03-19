@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-##TO DO LIST ON REACT
+## TO DO LIST ON REACT
 
 ## Available Scripts
 
